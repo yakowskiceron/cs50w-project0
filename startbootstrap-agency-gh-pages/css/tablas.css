@@ -1,0 +1,20 @@
+table {
+  margin: 100px;
+  border: 2px;
+  border-collapse: collapse;
+  width: 30%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+tr, td {
+  color: white;
+  border: 4px white;
+  padding: 2px;
+  text-align: center;
+}
+
+th {
+  background-color: indigo;
+  border: 4px white;
+  text-align: center;
+}/*# sourceMappingURL=tablas.css.map */

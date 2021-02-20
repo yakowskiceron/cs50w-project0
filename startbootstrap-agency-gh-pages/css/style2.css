@@ -1,0 +1,93 @@
+
+p {
+    font-size:20 px;
+    color: cornsilk;
+    margin: 50px;
+    text-shadow: 1px  0px 0px gray,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    text-align: center;
+    margin: 30px;
+    width: 50%;
+
+}
+
+.container > .descripcion {
+    background-color: burlywood;
+    width: 40%;
+    height: fit-content;
+    font-size: small;
+    border-radius: 10px;
+}
+
+
+body {
+    background-size:contain;
+    background-repeat:round;
+    margin: 0;
+    
+  }
+
+  h1, h2, h3 {
+      margin: 50px;
+      color:yellow;
+      font: bold;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+      text-shadow: 1px  0px 0px gray,
+        0px  1px 0px black,
+        -1px  0px 0px black,
+        0px -1px 0px black;
+    
+    }
+  
+  
+  .pr   
+  {
+      background-color: rgba(0, 0, 0, 0.233);
+  }
+
+  .video
+  {
+      align-content: center;
+      margin: 12%;
+      height: 500;
+      width: 500;
+      
+
+  }
+
+  
+
+  .botones {
+    width: 150px;
+    height: 100px;
+    margin-left: 50%;
+    margin-bottom: 1%;
+    border: 1px solid blue; 
+    padding: 10px; 
+    background-color: yellow;
+    color: #000000; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px; 
+    }
+
+
+.columnas > div {
+    padding: 10px;
+    background-color: teal;
+    border: 2px solid black;
+}
