@@ -8,6 +8,23 @@
             content:"Click here: ";
             font-weight: bold;
         }
+
+
+        @media (max-width: 500px){
+            body {
+                background-image: "https://cdn.mos.cms.futurecdn.net/z3rNHS9Y6PV6vbhH8w83Yn-1200-80.jpg";
+            }
+        }
+
+        @media print{
+            .only-page{
+                display: none;
+            }
+
+            
+        }
+
+
     </style>
 
     
@@ -34,7 +51,7 @@
     
         <div class = "descripcion">
             <h3>Gravitational Pull</h3>
-            <p>
+            <p class="only-page">
                 In 1564 the scientist Galileo was born in Pisa, and he said to have made use of the Leaning Tower for
                  one of his experiments, dropping objects from the top in order to demonstrate that the speed of their 
                  acceleration would be the same, regardless of weight. There is no doubt that Galileo proved this point,
@@ -120,35 +137,42 @@
     </div>
 
 
-    <div class="video">
-        <h3>Eiffel Tower's video</h3>
-        <iframe id="video" src="https://www.youtube.com/embed/X235vpOToVU" width="100%" height="500">
-        </iframe>
+
+    <div class="only-page">
+
+        <div class="video">
+            <h3>Eiffel Tower's video</h3>
+            <iframe id="video" src="https://www.youtube.com/embed/X235vpOToVU" width="100%" height="500">
+            </iframe>
+        </div>
+
+
+
+
+        <div class= "columnas">
+            <div class="col-lg-4 col-sm-6">
+                The leaning tower of Pisa
+                <a href="https://youtu.be/XZ-r8a9C4fE"></a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                Video for kids
+                <a href="https://youtu.be/d2vnVKDJauc"></a>
+            </div>
+
+            <div class="col-lg-4 col-sm-6">
+                Why does the leaning tower of Pisa lean?
+                <a href="https://youtu.be/trZgC8icFVU"></a>
+            </div>
+
+        </div>
+
+        
+
+            <button class="botones" onclick="history.go(-1);">Go Back</button>
+
     </div>
-
-
-
-
-    <div class= "columnas">
-        <div class="col-lg-4 col-sm-6">
-            The leaning tower of Pisa
-            <a href="https://youtu.be/XZ-r8a9C4fE"></a>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            Video for kids
-            <a href="https://youtu.be/d2vnVKDJauc"></a>
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-            Why does the leaning tower of Pisa lean?
-            <a href="https://youtu.be/trZgC8icFVU"></a>
-        </div>
-
-    </div>
-
-    <button class="botones" onclick="history.go(-1);">Go Back</button>
-
+    
     
 
 </body>

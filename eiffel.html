@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <style>
+         @media print{
+            .only-page{
+                display: none;
+            }
+
+            
+        }
+
+    </style>
+
     <title>The Eiffel Tower</title>
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
@@ -71,15 +83,26 @@
     </div>
 
 
-    <div class="video">
-        <h3>Eiffel Tower's video</h3>
-        <iframe id="video" src="https://www.youtube.com/embed/xpzflTfm8k0" width="100%" height="500">
-        </iframe>
+    
+
+    <div class="only-page">
+
+
+        <div class="video">
+            <h3>Eiffel Tower's video</h3>
+            <iframe id="video" src="https://www.youtube.com/embed/xpzflTfm8k0" width="100%" height="500">
+            </iframe>
+        </div>
+    
+        
+            <button class="botones" onclick="history.go(-1);">Go Back</button>
+    
+
+
     </div>
 
-    
-        <button class="botones" onclick="history.go(-1);">Go Back</button>
 
+    
     
     
 
