@@ -3,12 +3,14 @@
 <head>
 
     <style>
-        @media (max-width: 500px){
-            body {
-                background-image: "https://cdn.mos.cms.futurecdn.net/z3rNHS9Y6PV6vbhH8w83Yn-1200-80.jpg";
-            }
+
+        a::before{
+            content:"Click here: ";
+            font-weight: bold;
         }
     </style>
+
+    
 
     <title>The leaning Tower</title>
     <link rel="stylesheet" href="css/style2.css">
@@ -117,24 +119,37 @@
 
     </div>
 
+
+    <div class="video">
+        <h3>Eiffel Tower's video</h3>
+        <iframe id="video" src="https://www.youtube.com/embed/X235vpOToVU" width="100%" height="500">
+        </iframe>
+    </div>
+
+
+
+
     <div class= "columnas">
         <div class="col-lg-4 col-sm-6">
-            this is a section
+            The leaning tower of Pisa
+            <a href="https://youtu.be/XZ-r8a9C4fE"></a>
         </div>
 
         <div class="col-lg-4 col-sm-6">
-            this is a section 2
+            Video for kids
+            <a href="https://youtu.be/d2vnVKDJauc"></a>
         </div>
 
         <div class="col-lg-4 col-sm-6">
-            this is a section3
+            Why does the leaning tower of Pisa lean?
+            <a href="https://youtu.be/trZgC8icFVU"></a>
         </div>
-
-
-
 
     </div>
 
+    <button class="botones" onclick="history.go(-1);">Go Back</button>
+
+    
 
 </body>
 </html>
